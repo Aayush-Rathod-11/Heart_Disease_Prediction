@@ -1,0 +1,22 @@
+{
+  "best_model_name": "Random Forest",
+  "feature_order": [
+    "age",
+    "sex",
+    "cp",
+    "trestbps",
+    "chol",
+    "fbs",
+    "restecg",
+    "thalach",
+    "exang",
+    "oldpeak",
+    "slope",
+    "ca",
+    "thal"
+  ],
+  "class_labels": {
+    "0": "No Disease",
+    "1": "Disease"
+  }
+}
