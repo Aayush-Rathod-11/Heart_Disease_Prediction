@@ -9,7 +9,7 @@
 </p>
 
 <p align="center">
-  <a href="https://your-app-url.streamlit.app">
+  <a href="https://https://heartdiseaseprobability.streamlit.app">
     <img src="https://img.shields.io/badge/🚀%20LAUNCH%20LIVE%20APP-STREAMLIT-E63946?style=for-the-badge&logo=streamlit&logoColor=white" alt="Launch Live App"/>
   </a>
 </p>
@@ -71,11 +71,11 @@ The model is deployed as an interactive **Streamlit Web Application**, allowing 
 
 ## 🧪 Model Performance
 
-| Model               | Accuracy | Precision | Recall | F1 Score |
-|---------------------|----------|-----------|--------|----------|
-| Logistic Regression | 0.7705   | 0.7027    | 0.8966 | 0.7879   |
+| Model               | Accuracy   | Precision  | Recall     | F1 Score   |
+| ------------------- | ---------- | ---------- | ---------- | ---------- |
+| Logistic Regression | 0.7705     | 0.7027     | 0.8966     | 0.7879     |
 | **Random Forest**   | **0.8525** | **0.8125** | **0.8966** | **0.8525** |
-| KNN (k=5)           | 0.7377   | 0.6970    | 0.7931 | 0.7419   |
+| KNN (k=5)           | 0.7377     | 0.6970     | 0.7931     | 0.7419     |
 
 **🏆 Best Model:** Random Forest — selected by F1 Score (0.8525), balancing precision and recall in a medical screening context.
 
@@ -91,8 +91,9 @@ Python · Pandas · NumPy · Scikit-learn · Streamlit · Matplotlib · Seaborn
 
 ```
 Heart_Disease_Prediction_ML/
-├── streamlit_app.py          # Streamlit web application
+├── app.py                    # Streamlit web application
 ├── train_model.py            # Model training & artifact export pipeline
+├── Comparison table.png      # Comparison table Image
 ├── heart.csv                 # Dataset
 ├── requirements.txt          # Dependencies
 ├── Heart_Disease_Prediction.ipynb   # Full analysis notebook
@@ -128,5 +129,4 @@ streamlit run streamlit_app.py
 
 ## 👤 Author
 
-**Aayush Rathod** — Pluto Academy AI & ML Internship 2026
-
+**Aayush Rathod**
