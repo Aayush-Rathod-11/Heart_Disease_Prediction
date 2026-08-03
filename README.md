@@ -1,85 +1,132 @@
-# Heart_Disease_Prediction_ML
+# 🫀 Heart Disease Prediction
 
-## Problem Statement
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3.12-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python 3.12"/>
+  <img src="https://img.shields.io/badge/Scikit--learn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white" alt="Scikit-learn"/>
+  <img src="https://img.shields.io/badge/Machine%20Learning-FF7A00?style=for-the-badge" alt="Machine Learning"/>
+  <img src="https://img.shields.io/badge/Streamlit-31333F?style=for-the-badge&logo=streamlit&logoColor=FF4B4B" alt="Streamlit"/>
+  <img src="https://img.shields.io/badge/Deployed-E63946?style=for-the-badge" alt="Deployed"/>
+</p>
 
-You are an ML Engineer at a tech company. Your task is to build, train, and evaluate a machine learning
-model that predicts an outcome from real-world data. You must compare at least 3 different ML algorithms,
-evaluate them using proper metrics, and clearly explain which model performed best and why.
+<p align="center">
+  <a href="https://your-app-url.streamlit.app">
+    <img src="https://img.shields.io/badge/🚀%20LAUNCH%20LIVE%20APP-STREAMLIT-E63946?style=for-the-badge&logo=streamlit&logoColor=white" alt="Launch Live App"/>
+  </a>
+</p>
 
-### Dataset
+---
 
-- **Source:** [Heart Disease Dataset — Kaggle](https://www.kaggle.com/datasets/johnsmith88/heart-disease-dataset)
-- **Rows:** ~1025 patients (after deduplication)
-- **Features:** 13 clinical features + 1 binary target
-- **Target:** 1 = Heart disease present, 0 = No heart disease
+## 📌 Project Overview
 
-### Tech Stack
+**Heart Disease Prediction** is an end-to-end Machine Learning project that predicts whether a patient is likely to have heart disease based on clinical, demographic, and diagnostic information.
 
-Python · Pandas · NumPy · Matplotlib · Seaborn · Scikit-learn · Google Colab
+The model is deployed as an interactive **Streamlit Web Application**, allowing users to enter patient details and receive an instant heart disease risk prediction along with the probability score.
 
-## Project Structure
+---
 
-### Steps Covered
+## 🌐 Live Demo
 
-1. Data Loading & Inspection
-2. Data Cleaning (duplicates, type checks)
-3. Train/Test Split (80/20, stratified)
-4. Feature Engineering (correlation heatmap + RF feature importance)
-5. Model Training — Logistic Regression, Random Forest, KNN
-6. Evaluation — Accuracy, Precision, Recall, F1 Score
-7. Comparison Table (all 3 models)
-8. Best Model Analysis + Confusion Matrix
-9. Conclusion
+<p align="center">
+  <a href="https://your-app-url.streamlit.app">
+    <img src="https://img.shields.io/badge/🔗%20OPEN%20LIVE%20APPLICATION-STREAMLIT-E63946?style=for-the-badge&logo=streamlit&logoColor=white" alt="Open Live Application"/>
+  </a>
+</p>
 
-### Screenshort of Camparison table
+---
 
-<img width="552" height="231" alt="image" src="https://github.com/user-attachments/assets/09ca10dd-5b5a-4413-ad90-16dde5661db7" />
+## ✨ Key Features
 
-### Results Summary (Comparison table)
+- 🫀 Heart Disease Risk Prediction
+- 📊 Disease Probability & Confidence Score
+- ⚠️ Patient Risk Assessment
+- 🧠 3-Model Comparison (Logistic Regression, Random Forest, KNN)
+- 📈 Feature Importance & Model Insights Dashboard
+- 🖥️ Interactive Streamlit Dashboard
+- 🔬 End-to-End Machine Learning Pipeline
+
+---
+
+## 📊 Dataset Features
+
+### 👤 Patient Information
+
+- Age
+- Sex
+- Chest Pain Type
+- Fasting Blood Sugar
+- Resting ECG Results
+- Exercise-Induced Angina
+
+### ❤️ Clinical & Diagnostic Information
+
+- Resting Blood Pressure
+- Serum Cholesterol
+- Maximum Heart Rate Achieved
+- ST Depression (Oldpeak)
+- Slope of Peak Exercise ST Segment
+- Number of Major Vessels (Fluoroscopy)
+- Thalassemia
+
+---
+
+## 🧪 Model Performance
 
 | Model               | Accuracy | Precision | Recall | F1 Score |
-| ------------------- | -------- | --------- | ------ | -------- |
+|---------------------|----------|-----------|--------|----------|
 | Logistic Regression | 0.7705   | 0.7027    | 0.8966 | 0.7879   |
-| Random Forest       | 0.8525   | 0.8125    | 0.8966 | 0.8525   |
+| **Random Forest**   | **0.8525** | **0.8125** | **0.8966** | **0.8525** |
 | KNN (k=5)           | 0.7377   | 0.6970    | 0.7931 | 0.7419   |
 
-**Best Model:** Random Forest with F1 Score of 0.8525 (85.25%)
+**🏆 Best Model:** Random Forest — selected by F1 Score (0.8525), balancing precision and recall in a medical screening context.
 
-### Most Surprising Finding
+---
 
-The most surprising finding was how strongly **chest pain type ('cp')** correlated
-with heart disease presence — more than traditional risk factors like cholesterol
-('chol') or blood pressure ('trestbps'), which are the ones most commonly discussed
-in public health messaging. The feature importance chart made this especially clear.
-It suggests that symptom-type may be a more powerful early indicator than lab values
-alone, which has real implications for triage in clinical settings.
+## 🛠️ Tech Stack
 
-## Conclusion
+Python · Pandas · NumPy · Scikit-learn · Streamlit · Matplotlib · Seaborn
 
-After comparing three classification models on the Heart Disease dataset,
-**Random Forest** emerged as the strongest performer with an F1 Score
-of **0.8525 (85.25%)** and Accuracy of **0.8525 (85.25%)**.
+---
 
-Key insight: chest pain type ('cp'), maximum heart rate ('thalach'), and
-number of major vessels ('ca') were the most influential features —
-outweighing commonly assumed risk factors like cholesterol and blood pressure.
+## 📂 Project Structure
 
-In a medical screening context, this model's low false negative rate makes
-it practically useful, not just statistically strong.
-
-### How to Run
-
-1. Open the notebook in [Google Colab](https://colab.research.google.com/drive/1MVxifMv6Kq10ub0UEXl6yiE3KLNnYhZQ?hl=eu#scrollTo=inJYw1FAmtU3)
-2. Download the dataset from the Kaggle link above
-3. Upload 'heart.csv' to Colab or mount Google Drive
-4. Run all cells top to bottom (Runtime → Run All)
-
-Or clone this repo and run locally with Jupyter:
-
-```bash
-git clone https://github.com/Aayush-Rathod-11/Heart_Disease_Prediction_ML.git
+```
+Heart_Disease_Prediction_ML/
+├── streamlit_app.py          # Streamlit web application
+├── train_model.py            # Model training & artifact export pipeline
+├── heart.csv                 # Dataset
+├── requirements.txt          # Dependencies
+├── Heart_Disease_Prediction.ipynb   # Full analysis notebook
+└── model/
+    ├── best_model.pkl
+    ├── scaler.pkl
+    ├── metadata.json
+    ├── comparison_table.csv
+    ├── feature_importance.csv
+    └── confusion_matrix.csv
 ```
 
-### Author
+---
 
-Aayush Rathod
+## ▶️ How to Run Locally
+
+```bash
+# Clone the repo
+git clone https://github.com/Aayush-Rathod-11/Heart_Disease_Prediction_ML.git
+cd Heart_Disease_Prediction_ML
+
+# Install dependencies
+pip install -r requirements.txt
+
+# (Optional) retrain the model
+python train_model.py
+
+# Launch the app
+streamlit run streamlit_app.py
+```
+
+---
+
+## 👤 Author
+
+**Aayush Rathod** — Pluto Academy AI & ML Internship 2026
+
