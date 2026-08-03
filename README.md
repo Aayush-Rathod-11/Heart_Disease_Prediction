@@ -2,11 +2,7 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/Python-3.12-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python 3.12"/>
-  <img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" alt="Pandas"/>
-  <img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white" alt="NumPy"/>
   <img src="https://img.shields.io/badge/Scikit--learn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white" alt="Scikit-learn"/>
-  <img src="https://img.shields.io/badge/Matplotlib-11557C?style=for-the-badge&logo=plotly&logoColor=white" alt="Matplotlib"/>
-  <img src="https://img.shields.io/badge/Seaborn-4C72B0?style=for-the-badge&logo=python&logoColor=white" alt="Seaborn"/>
   <img src="https://img.shields.io/badge/Machine%20Learning-FF7A00?style=for-the-badge" alt="Machine Learning"/>
   <img src="https://img.shields.io/badge/Streamlit-31333F?style=for-the-badge&logo=streamlit&logoColor=FF4B4B" alt="Streamlit"/>
   <img src="https://img.shields.io/badge/Deployed-E63946?style=for-the-badge" alt="Deployed"/>
