@@ -9,7 +9,7 @@
 </p>
 
 <p align="center">
-  <a href="https://https://heartdiseaseprobability.streamlit.app">
+  <a href="https://heartdiseaseprobability.streamlit.app">
     <img src="https://img.shields.io/badge/🚀%20LAUNCH%20LIVE%20APP-STREAMLIT-E63946?style=for-the-badge&logo=streamlit&logoColor=white" alt="Launch Live App"/>
   </a>
 </p>
@@ -27,7 +27,7 @@ The model is deployed as an interactive **Streamlit Web Application**, allowing 
 ## 🌐 Live Demo
 
 <p align="center">
-  <a href="https://your-app-url.streamlit.app">
+  <a href="https://heartdiseaseprobability.streamlit.app">
     <img src="https://img.shields.io/badge/🔗%20OPEN%20LIVE%20APPLICATION-STREAMLIT-E63946?style=for-the-badge&logo=streamlit&logoColor=white" alt="Open Live Application"/>
   </a>
 </p>
