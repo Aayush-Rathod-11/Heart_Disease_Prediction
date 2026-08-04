@@ -46,6 +46,16 @@ The model is deployed as an interactive **Streamlit Web Application**, allowing 
 
 ---
 
+## 📊 Dataset
+
+The dataset used for this project is the **Heart Disease Dataset** from Kaggle.
+
+🔗 **Kaggle Dataset:** https://www.kaggle.com/datasets/johnsmith88/heart-disease-dataset
+
+The dataset contains patient clinical and diagnostic information used to train and evaluate the machine learning models for heart disease prediction.
+
+---
+
 ## 📊 Dataset Features
 
 ### 👤 Patient Information
