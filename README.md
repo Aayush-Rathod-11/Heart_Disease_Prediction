@@ -56,7 +56,7 @@ The dataset contains patient clinical and diagnostic information used to train a
 
 ---
 
-## 📊 Dataset Feature
+## 📊 Dataset Features
 
 ### 👤 Patient Information
 
