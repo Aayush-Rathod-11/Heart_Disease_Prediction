@@ -24,7 +24,7 @@ The model is deployed as an interactive **Streamlit Web Application**, allowing 
 
 ---
 
-## 🌐 Live Demo
+## 🌐 Live Demo live
 
 <p align="center">
   <a href="https://heartdiseaseprobability.streamlit.app">
