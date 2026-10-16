@@ -16,7 +16,7 @@
 
 ---
 
-## 📌 Project Overview
+## 📌 Project Overvie
 
 **Heart Disease Prediction** is an end-to-end Machine Learning project that predicts whether a patient is likely to have heart disease based on clinical, demographic, and diagnostic information.
 
